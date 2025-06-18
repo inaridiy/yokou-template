@@ -1,0 +1,26 @@
+{
+  "name": "yokou-template",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/sfc-rg/yokou-template.svg?branch=master)](https://travis-ci.org/sfc-rg/yokou-template) * 慶応義塾大学湘南藤沢キャンパス 村井・徳田合同研究室の発表における予稿テンプレートです。 * 元のデータは[こちら](https://gist.github.com/ntddk/f842cabe4298a2f988b9)より拝借     - thanks to gomachan :)",
+  "main": "index.js",
+  "scripts": {
+    "textlint": "textlint resume.tex",
+    "textlint:fix": "textlint --fix resume.tex",
+    "lint": "npm run textlint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "textlint": "^14.8.4",
+    "textlint-rule-ja-no-mixed-period": "^3.0.1",
+    "textlint-rule-ja-no-redundant-expression": "^4.0.1",
+    "textlint-rule-max-ten": "^5.0.0",
+    "textlint-rule-no-mix-dearu-desumasu": "^6.0.4",
+    "textlint-rule-preset-ja-technical-writing": "^12.0.2",
+    "textlint-rule-preset-japanese": "^10.0.4",
+    "textlint-rule-prh": "^6.1.0",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
+  }
+}
